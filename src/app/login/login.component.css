@@ -1,0 +1,45 @@
+mat-grid-tile {
+  background-color: #1EAAF7;
+}
+
+.banner{
+  background-image: url("/assets/images/login_banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+  color: #FFF;
+}
+
+.form-container{
+  text-align: center;
+}
+
+.input-field{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+input[type=password]{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+

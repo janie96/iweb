@@ -1,1 +1,22 @@
-<p>login works!</p>
+<mat-grid-list cols="2" [gutterSize]="'0'" xmlns="http://www.w3.org/1999/html">
+  <mat-grid-tile class="banner"></mat-grid-tile>
+  <mat-grid-tile class="form">
+    <div class="form-container">
+      <div class="logo ">
+        <img [src]="'/assets/images/logo.png'">
+      </div>
+      <h2 class="header">Sign in to building your own website</h2>
+      <div [formGroup]="loginForm">
+        <input formControlName="email"  type="text"  placeholder="e-mail">
+        <input formControlName="password"  type="password"  placeholder="password">
+        <button style="width:80%;margin-top: 20px;height: 50px;font-size: large;" mat-raised-button >Get Started</button>
+      </div>
+      <div style="margin-top: 30px;color: #FFFFFF">
+        <h2>- or -</h2>
+        <button style="width:80%;height: 50px;font-size: large;" mat-raised-button >
+          <img style="width: 30px;height: 30px;" [src]="'/assets/images/google.png'"> Sign in with Google
+        </button>
+      </div>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list>
