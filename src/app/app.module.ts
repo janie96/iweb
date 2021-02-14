@@ -11,12 +11,22 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {ReactiveFormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { WorkshopComponent } from './workshop/workshop.component';
+import { RegisterComponent } from './register/register.component';
+import { ConfirmComponent } from './confirm/confirm.component';
+import { SupportComponent } from './support/support.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent,
+    WorkshopComponent,
+    RegisterComponent,
+    ConfirmComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,
